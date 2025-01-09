@@ -6,7 +6,7 @@
 /*   By: ticasali <ticasali@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/08 12:51:31 by ticasali          #+#    #+#             */
-/*   Updated: 2025/01/08 13:36:03 by ticasali         ###   ########.fr       */
+/*   Updated: 2025/01/09 16:07:42 by ticasali         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ typedef struct	line_s
 {
 	char	*str;
 	size_t	ct;
+	bool	check;
 	struct line_s *next;
 }Line_t;
 
